@@ -1,0 +1,21 @@
+CARA BUILD APK DARI HP
+
+1. Buat repository baru di GitHub, misalnya: xauusd-m1-signal
+2. Ekstrak ZIP ini.
+3. Di GitHub, pilih Add file > Upload files.
+4. Upload SEMUA isi folder project (termasuk folder .github).
+5. Commit ke branch main.
+6. Buka tab Actions.
+7. Pilih workflow "Build XAUUSD APK".
+8. Jika belum berjalan otomatis, tekan Run workflow.
+9. Tunggu sampai selesai.
+10. Buka hasil workflow dan bagian Artifacts.
+11. Download "XAUUSD-M1-debug-apk.zip".
+12. Ekstrak ZIP tersebut, lalu install app-debug.apk di HP.
+
+Jika Android meminta izin, aktifkan "Install unknown apps" untuk browser/file manager yang Anda gunakan.
+
+CATATAN:
+- APK ini adalah prototype/simulasi, belum real-time.
+- Jangan masukkan API key/secret ke aplikasi.
+- Untuk real-time, nanti backend market-data perlu ditambahkan.
